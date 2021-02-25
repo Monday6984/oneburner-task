@@ -142,10 +142,15 @@ nav ul {
     .sub-titles {
         padding-left: 1em;
         margin-top: 1em;
+        
     }
 
     .menu {
         max-width: 540px;
+    }
+
+    .partners a {
+        padding: 0;
     }
 }    
 
@@ -214,8 +219,53 @@ footer  h5 {
 form {
     margin: 3em;
     background-color: #fff;
+    font-size: 0.7rem;
+    color: #333333;
+
 }
 
+form .btn {
+    width: 100%;
+
+}
+
+.contact-wrap {
+    padding: 6em 4em 4em 6em;
+}
+
+.contact-title {
+    margin-bottom: 1.5em;
+    color: #333333;
+
+}
+
+.contact-text {
+    color: #454545 80%;
+    font-size: 0.8em;
+
+}
+.address {
+    margin-bottom: 2.5em;
+}
+
+
+
+.address p {
+    color: #01001D 60%;
+    font-size: 0.6rem;
+    margin-bottom: 0.5em;
+    
+
+}
+
+.address h6 {
+    color: #455A64;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+
+}
 
 
 
