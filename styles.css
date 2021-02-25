@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+      -webkit-text-size-adjust: 100%;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+body{ 
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+} 
+
+a  {
+    color: #454545;
+}
+
+h4 {
+    color: #333333;
+}
+
+.container-fluid {
+    padding: 0;
+} 
+
+
+.btn {
+    background-color: #462686;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+}
+
+.fa-chevron-right {
+    padding-left: 0.5em;
+}
+
+.navig {
+    width: 90%;
+}
+
+.nav-item {
+    color: #454545;
+}
+
+nav ul {
+    font-family: SF Pro Display;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #454545;
+    
+
+}
+.nav li:last-child {
+    background-color: #462686;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.col-megamenu {
+    color: #462686;
+    display: flex;
+}
+
+.fas {
+    margin-right: 1em;
+}
+
+.padding {
+    padding: 2em;
+}
+
+.hero-title {
+    color: #462686;
+    margin-top: 3em;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.hero-text {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.partners a {
+    padding: 1em;
+}
+
+.sub-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 11em;
+}
+
+.sub-titles-text {
+    font-size: 0.75em;
+    margin-top: 1.5em;
+}
+
+.tools a {
+    padding: 1.5em;
+    margin: 10em 0;
+}
+
+.menu {
+    border: 2px solid #333333;
+    border-radius: 10px;
+    padding-left: 0;
+    
+}
+
+
+.menu > .nav li:last-child {
+    background-color: #fff;
+   
+}
+.menu > .nav a:first-child {
+    background-color: #462686;
+    color: #fff;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-action {
+    width: 100%;
+    margin: 0;
+    background-color: #7837F8;
+}
+
+footer {
+    background-color: #7837F8;
+   color: #01001D 60%;
+
+}
+
+
+
+
+
+@media all and (min-width: 992px) {
+    .navbar{ padding-top: 0; padding-bottom: 0; }
+    .navbar .has-megamenu{position:static!important;}
+    .navbar .megamenu{left:0; right:0; width:100%; padding:20px;  }
+    .navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
+}
+
