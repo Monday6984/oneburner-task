@@ -31,7 +31,8 @@ h4 {
     background-color: #462686;
     color: #fff;
     border-radius: 20px;
-    padding: 0.5em 1em;
+    padding: 0.4em 1em;
+    font-size: 0.8em;
 }
 
 .fa-chevron-right {
@@ -66,6 +67,10 @@ nav ul {
     background-color: #462686;
     color: #fff;
     border-radius: 20px;
+}
+
+.navbar-toggler-icon {
+    background-color: #462686;
 }
 
 .col-megamenu {
@@ -209,9 +214,26 @@ footer {
 }
 
 footer  h5 {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     color:#150B28;
+    font-weight: bold;
 
+}
+
+footer .btn {
+    background-color: #fff;
+    color: #462686;
+    border-radius: 5px;
+    margin-bottom: 3em;
+
+}
+
+.fa-chevron-down {
+    padding-left: 2em;
+}
+
+.social {
+    font-size: 1rem;
 }
 
 
@@ -232,6 +254,13 @@ form .btn {
 .contact-wrap {
     padding: 6em 4em 4em 6em;
 }
+
+@media all and (max-width: 576px) {
+
+    .contact-wrap {
+       padding: 2em;
+    }
+}    
 
 .contact-title {
     margin-bottom: 1.5em;
