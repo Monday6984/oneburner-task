@@ -27,11 +27,12 @@ h4 {
 } 
 
 
+
 .btn {
     background-color: #462686;
     color: #fff;
     border-radius: 20px;
-    padding: 0.4em 1em;
+    padding:  1em 2em;
     font-size: 0.8em;
 }
 
@@ -228,9 +229,7 @@ footer .btn {
 
 }
 
-.fa-chevron-down {
-    padding-left: 2em;
-}
+
 
 .social {
     font-size: 1rem;
@@ -296,7 +295,20 @@ form .btn {
 
 }
 
+.f-pass {
+    color: #462686;
+    margin-bottom: 5em;
+}
 
+.sign-in-text {
+    color: #333333;
+    font-size: 0.6rem;
+    
+}
+
+.sign-in-text a {
+    padding: 0.5em;
+}
 
 
 @media all and (min-width: 992px) {
