@@ -9,7 +9,7 @@ The design was provided via Figma, I developed it making sure it looked as close
 ![oneburner home screenshot](./images/oneburner-home.PNG)
 ![oneburner contact screenshot](./images/oneburner-contact.PNG)
 ![oneburner sign-in screenshot](./images/oneburner-signin.PNG)
-                                                ## [live Demo](https://oneburner-agency.netlify.app)
+## [live Demo](https://oneburner-agency.netlify.app)
 
 ## How to run
 *Download the entire folder on your laptop/computer.
