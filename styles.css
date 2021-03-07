@@ -310,6 +310,9 @@ form .btn {
     padding: 0.5em;
 }
 
+button > .btn {
+    background-color: #fff;
+}
 
 @media all and (min-width: 992px) {
     .navbar{ padding-top: 0; padding-bottom: 0; }
